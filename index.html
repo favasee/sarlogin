@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Sargaravu Login</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./animation.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      function authenticate() {
+          var userId = document.getElementById('userId').value;
+          var password = document.getElementById('password').value;
+
+          // Check user ID and password
+          if (userId === 'DMP443' && password === '1689') {
+              window.location.href = 'https://favasee.github.io/sarp1/';
+          } else if (userId === 'DMP446' && password === '1689') {
+              window.location.href = 'https://favasee.github.io/sarp2/';
+          } else if (userId === 'DMP449' && password === '1689') {
+              window.location.href = 'https://favasee.github.io/sarp3/';
+          } else {
+              alert('Invalid credentials. Please try again.');
+          }
+      }
+  </script>
+
+  </head>
+  <body>
+    <div class="parent-div">
+      <div class="login-1-1916" id="id-6837">
+        <div class="ellipse-4-1-2200" id="id-6838"></div>
+        <div class="ellipse-5-1-864" id="id-6839"></div>
+        <div class="ellipse-3-1-2340" id="id-6841"></div>
+        <div class="ellipse-1-1-2640" id="id-6842"></div>
+        <div class="rectangle-16-1-4984" id="id-6840"></div>
+        <div class="rectangle-22-1-472" id="id-6843">
+          
+        </div>
+        <div class="rectangle-37-1-954" id="id-6844">
+          
+        </div>
+        <div class="rectangle-36-1-3906" id="id-93163"></div>
+        <div class="password-1-3420" id="id-6845">
+          <span class="password-1-3420-0"><input type="password" id="password" name="password" required class="input" placeholder="Password" ></span>
+        </div>
+        <div class="user-name-1-3294" id="id-6846">
+          <span class="user-name-1-3294-0"><input type="text" id="userId" name="userId" class="input" required placeholder="User name" ></span>
+        </div>
+        <div class="welcome-back-1-6" id="id-6847">
+          <span class="welcome-back-1-6-0">welcome back</span>
+        </div>
+        <div class="login-1-3870" id="id-6848">
+          <span class="login-1-3870-0">logIn</span>
+        </div>
+        <div class="login-1-984" id="id-93164">
+          <span class="login-1-984-0"><button type="button" class="manu" onclick="authenticate()">Login</button></span>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
